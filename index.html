@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="design.css" />
+    <script src="scripts.js"></script>
+    <title>Conversor de Bases</title>
+  </head>
+  <body>
+    <div id="container">
+      <form class="box">
+        <header>
+          <label for="answer">
+            ENTRADA
+            <input type="number" name="" id="numero" required />
+            <select name="" id="entrada" required>
+              <option value="10">Decimal</option>
+              <option value="8">Octal</option>
+              <option value="2">Binario</option>
+              <option value="16">Hexadecimal</option>
+            </select>
+          </label>
+        </header>
+        <main>
+          <label for="">
+            SAIDA
+            <select name="" id="saida" required>
+              <option value="10">Decimal</option>
+              <option value="8">Octal</option>
+              <option value="2">Binario</option>
+              <option value="16">Hexadecimal</option>
+            </select>
+          </label>
+        </main>
+        <footer>
+          <button type="submit" onclick="conversao()">converter</button>
+        </footer>
+      </form>
+    </div>
+  </body>
+</html>
